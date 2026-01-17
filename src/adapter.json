@@ -1,0 +1,12 @@
+{
+  "$schema": "https://poggollc.github.io/stall-adapters/schema/v1/schema.json",
+  "id": "woocommerce",
+  "name": "WooCommerce Adapter",
+  "description": "Adapter for connecting WooCommerce and Stall",
+  "keywords": ["woocommerce", "woocommerce api", "woocommerce rest api"],
+  "version": "0.0.1",
+  "authors": ["Sands"],
+  "repo": "https://github.com/Sands-45/woo-stall-adapter",
+  "homepage": "https://github.com/Sands-45/woo-stall-adapter",
+  "offline_ready": true
+}
