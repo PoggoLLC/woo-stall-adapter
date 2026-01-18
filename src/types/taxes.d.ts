@@ -25,3 +25,13 @@ export interface WooTaxRateType {
     }>;
   };
 }
+
+export interface WooTaxClassType {
+  slug: string;
+  name: string;
+  _links: {
+    collection: Array<{
+      href: string;
+    }>;
+  };
+}

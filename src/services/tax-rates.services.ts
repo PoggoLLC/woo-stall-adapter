@@ -9,7 +9,7 @@ const list = async (props: {
   try {
     const { connector_config, query } = props;
     const key = get_auth_key(connector_config);
-    const endpoint = `${connector_config.endpoint}/wp-json/wc/v3/taxes?${query}`;
+    const endpoint = `${connector_config.endpoint}/wp-json/wc/v3/taxes/classes?${query}`;
 
     const res = await fetch(endpoint, {
       headers: {
